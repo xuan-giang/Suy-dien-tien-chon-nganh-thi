@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace HeChuyenGia_Nhom2
+namespace ChonNganhThi_Nhom11
 {
     public partial class tuvan : Form
     {
@@ -158,6 +158,11 @@ namespace HeChuyenGia_Nhom2
         }
 
         private void cbkhoi_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }

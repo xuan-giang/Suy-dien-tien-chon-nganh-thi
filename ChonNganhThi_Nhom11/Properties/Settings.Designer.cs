@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace HeChuyenGia_Nhom2.Properties {
+namespace ChonNganhThi_Nhom11.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HeChuyenGia_Nhom2
+namespace ChonNganhThi_Nhom11
 {
     class RuleDefine
     {

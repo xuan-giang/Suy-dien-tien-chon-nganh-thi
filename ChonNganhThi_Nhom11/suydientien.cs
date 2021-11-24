@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.IO;
 using System.Data;
 
-namespace HeChuyenGia_Nhom2
+namespace ChonNganhThi_Nhom11
 {
     class suydientien
     {

@@ -7,7 +7,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Windows.Forms;
 
-namespace HeChuyenGia_Nhom2
+namespace ChonNganhThi_Nhom11
 {
     class luat_xl
     {

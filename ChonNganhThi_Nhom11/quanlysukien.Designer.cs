@@ -1,4 +1,4 @@
-﻿namespace HeChuyenGia_Nhom2
+﻿namespace ChonNganhThi_Nhom11
 {
     partial class quanlysukien
     {
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(quanlysukien));
             this.datasukien = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -186,7 +187,6 @@
             // 
             // panel1
             // 
-            this.panel1.BackgroundImage = global::HeChuyenGia_Nhom2.Properties.Resources.header;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Location = new System.Drawing.Point(12, 55);
             this.panel1.Name = "panel1";
@@ -214,9 +214,10 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.datasukien);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "quanlysukien";
-            this.Text = "quanlysukien";
+            this.Text = "Quản lý sự kiện";
             this.Load += new System.EventHandler(this.quanlysukien_Load);
             ((System.ComponentModel.ISupportInitialize)(this.datasukien)).EndInit();
             this.ResumeLayout(false);

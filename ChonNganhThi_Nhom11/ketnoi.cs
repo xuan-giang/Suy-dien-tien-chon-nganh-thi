@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 using System.Data;
 using System.Data.SqlClient;
 
-namespace HeChuyenGia_Nhom2
+namespace ChonNganhThi_Nhom11
 {
     class ketnoi
     {
         SqlConnection con;
         public ketnoi()
         {
-            con = new SqlConnection(@"Data Source=DESKTOP-QSM56EE\XUANGIANG;Initial Catalog=HCG;Integrated Security=True");
+            con = new SqlConnection(@"Data Source=DESKTOP-QSM56EE\XUANGIANG;Initial Catalog=ChonNganhThi;Integrated Security=True");
             con.Open();
         
         }

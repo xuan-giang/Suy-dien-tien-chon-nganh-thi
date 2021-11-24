@@ -1,4 +1,4 @@
-﻿namespace HeChuyenGia_Nhom2
+﻿namespace ChonNganhThi_Nhom11
 {
     partial class Main
     {
@@ -162,6 +162,7 @@
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Main";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.Text = "Chọn ngành thi";

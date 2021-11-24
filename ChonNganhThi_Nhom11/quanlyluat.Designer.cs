@@ -1,4 +1,4 @@
-﻿namespace HeChuyenGia_Nhom2
+﻿namespace ChonNganhThi_Nhom11
 {
     partial class quanlyluat
     {
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(quanlyluat));
             this.btntimkiem = new System.Windows.Forms.Button();
             this.txttimkiem = new System.Windows.Forms.TextBox();
             this.btnxoa = new System.Windows.Forms.Button();
@@ -167,9 +168,10 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataluat);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "quanlyluat";
-            this.Text = "quanlyluat";
+            this.Text = "Quản lý luật";
             this.Load += new System.EventHandler(this.quanlyluat_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataluat)).EndInit();
             this.ResumeLayout(false);
